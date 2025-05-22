@@ -1,0 +1,162 @@
+* {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #C40505;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+
+.section1 {
+    display: inline-block;
+    margin-top: 166px;
+    margin-bottom: 78px;
+    width: 60%;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section2 {
+    display: inline-block;
+    width: 40%;
+    height: 100vh;
+    position: absolute;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form {
+    position: absolute;
+}
+
+header {
+    display: inline-block;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 64px;
+    line-height: 70px;
+    width: 265px;
+    height: 196px;
+    margin-left: 210px;
+}
+
+p {
+    color: #000;
+    font-size: 20px;
+    line-height: 30px;
+    width: 469px;
+    height: 187px;
+    margin-top: 36px;
+    margin-left: 112px;
+}
+
+.link-header {
+    color: #FFF;
+    font-size: 16px;
+    width: 92px;
+    height: 34px;
+    position: relative;
+    margin-right: 50px;
+    top: 39px;
+    right: 55px;
+    cursor: pointer;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+a:active {
+    opacity: 0.5;
+    color: darkslategray;
+}
+
+.logo-image {
+    position: relative;
+    width: 376px;
+    height: 376px;
+    top: 25%;
+    right: 10%;
+}
+
+.form {
+    background-color: rgb(167, 10, 10);
+    font-size: 14px;
+    text-align: center;
+    border: #0e0c0c;
+    border-radius: 15px;
+    position: relative;
+    bottom: 850px;
+    left: 33px;
+    width: 140px;
+    margin-right: 20px;
+}
+
+button {
+    width: 66px;
+    height: 25px;
+    position: relative;
+    bottom: 850px;
+    left: 49px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    width: 65px;
+    border:none;
+}
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+    color: rgb(251, 252, 252);
+}
+
+@media screen and (max-width: 960px) {
+    .section1 {
+        width: 100%;
+        height: 40%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .section2 {
+        width: 100%;
+        height: 60%;
+        display: block;
+    }
+
+    h1 {
+        font-size: 36px;
+        width: auto;
+        margin: 36px 95px 0 94px;
+    }
+
+    p {
+        font-size: 14px;
+        width: auto;
+        margin: 45px 26px;
+    }
+
+    header {
+        display: none;
+    }
+
+    .logo-image {
+        width: auto;
+        margin-left: 56px;
+
+    }
+}
