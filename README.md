@@ -1,4 +1,4 @@
-<h1>Facção E-Sports</h1>
+<h1><b>Facção E-Sports</b></h1>
 <p>Esse é um projeto responsivo que desenvolvi de um clã de Free Fire para um amigo usando as ferramentas citadas abaixo</p>
 <br>
 <br>
@@ -8,4 +8,5 @@
   <li><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css-logo"/></li>
 </ul>
 
-<h1>Esse é o Projeto</h1>
+<h1 align="center">Esse é o Projeto</h1>
+<img src="https://github.com/Ya-go17/guilda/blob/main/assets/desktop.png?raw=true" alt="guilda-img" width="800" />
